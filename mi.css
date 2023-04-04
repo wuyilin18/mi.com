@@ -11,6 +11,20 @@ body {
 .column {
   flex-direction: column;
 }
+.shadow:hover {
+  /* 盒子阴影 */
+  box-shadow: 4px 20px 40px 5px rgba(0, 0, 0, 0.1);
+  /* 盒子向上移动效果，改变上外边距 */
+  /* margin-top: 5px; */
+}
+.boxshadow:hover {
+  /* 盒子阴影 */
+  box-shadow: 4px 20px 40px 5px rgba(0, 0, 0, 0.1);
+  /* 盒子向上移动效果，改变上外边距 */
+  /* margin-top: 5px; */
+  transform: scale(1.02);
+  /*缩放*/
+}
 header {
   /* position: fixed; */
   background-color: #333333;
