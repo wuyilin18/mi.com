@@ -28,7 +28,7 @@ body {
 .sep {
   font-family: sans-serif;
   margin: 0 0.3em;
-  color: #424242;
+  color: #665f5f;
 }
 header {
   /* position: fixed; */
@@ -76,7 +76,6 @@ header div div li a {
   display: block;
   color: #c8c8c8;
   text-align: center;
-
   text-decoration: none;
   font-size: 12px;
 }
@@ -302,53 +301,21 @@ div footer {
   justify-content: space-between;
   align-items: center;
 }
-/* div footer dl dt {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+.footercenter {
+  margin: 0px auto;
 }
-div footer dl dt dd {
-  float: left;
-}
-div footer dl dt dd:last-child {
-  border-right: none;
-}
-div div footer dl dt dd a {
-  display: block;
-  color: #b4b4b4;
-  text-align: center;
-  padding: 12px 10px;
-  text-decoration: none;
-  font-size: 30px;
-}
-div footer dl dt dd a:hover:not(.active) {
-  color: #ff6700;
-} */
-
-/* div footer img {
-  width: 1226px;
-  height: 392px;
-}
-footernav {
-  width: 1226px;
-  height: 285px;
-  margin: 20px auto;
-}
-footernav img {
-  width: 1226px;
-  height: 247px;
-} */
 fianl {
   width: 1226px;
-  height: 50px;
+  height: 120px;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }
 final span {
   justify-content: center;
   align-items: center;
   font-size: 20px;
+  margin-bottom: 10px;
   color: #5d5a5a;
 }
 final span1 {
