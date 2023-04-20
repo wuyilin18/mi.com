@@ -1,6 +1,5 @@
 body {
   background-color: #fafafa;
-  width: 100%;
 }
 * {
   margin: 0;
@@ -341,4 +340,9 @@ final p {
   margin-bottom: 60px;
   font-size: 18px;
   color: #868686;
+}
+@media (max-width: 1080px) {
+  .top_and_bottom {
+    width: 1224px;
+  }
 }
