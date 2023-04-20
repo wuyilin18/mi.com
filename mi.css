@@ -11,6 +11,15 @@ body {
 .column {
   flex-direction: column;
 }
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+span {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 .shadow:hover {
   /* 盒子阴影 */
   box-shadow: 4px 20px 40px 5px rgba(0, 0, 0, 0.1);
@@ -35,7 +44,8 @@ header {
   background-color: #333333;
 }
 .head {
-  width: auto;
+  margin: 0 auto;
+  width: 100%;
   height: 40px;
 }
 .center {
@@ -50,6 +60,7 @@ header {
   padding: 0;
 }
 .nav li {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: inline-block;
   cursor: pointer;
 }
@@ -108,6 +119,7 @@ div nav div ul {
   overflow: hidden;
 }
 div nav div ul li {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   float: left;
 }
 div nav div ul li:last-child {
@@ -304,11 +316,11 @@ div footer {
   margin: 0px auto;
 }
 fianl {
+  margin: 0 auto;
   width: 1226px;
-  justify-content: center;
-  align-items: center;
 }
 final span {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   justify-content: center;
   align-items: center;
   font-size: 20px;
@@ -316,6 +328,7 @@ final span {
   color: #5d5a5a;
 }
 final span1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -325,6 +338,7 @@ final span1 {
   color: #5d5a5a;
 }
 final span2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -334,6 +348,7 @@ final span2 {
   color: #5d5a5a;
 }
 final p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   justify-content: center;
   align-items: center;
   margin-top: 10px;
